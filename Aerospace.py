@@ -1,9 +1,8 @@
 import math
-import sys
 
-G = 9.81  # Define gravity as a global constant
+G = 9.81  
 
-# --- 1. FUNCTIONAL MODULE: INPUT & VALIDATION ---
+# 1. FUNCTIONAL MODULE: INPUT & VALIDATION 
 def get_launch_parameters():
    
     print("\n--- Projectile Trajectory Simulator (Setup) ---")
@@ -113,4 +112,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
